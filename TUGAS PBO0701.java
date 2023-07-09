@@ -40,7 +40,7 @@ public class PBO0701 {
             String lastname;
             while(resultset.next()){
             firstname = resultset.getString("customerName");
-            lastname = resultset.getString("addressLineq");
+            lastname = resultset.getString("addressLine1");
             System.out.println("Name : "+firstname+" "+lastname);
             }
             resultset.close();
